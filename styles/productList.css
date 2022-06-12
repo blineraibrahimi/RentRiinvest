@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+   
+}
+
+html {
+    /* display: table; */
+    /* width: 100%; */
+    margin: auto;
+}
+
+.bodi {
+    /* display: table-cell;
+    vertical-align: middle; */
+}
+
+.column {
+    float: left;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* @media screen and (min-width: 960px) {
+.column {
+    float: left;
+    width: 400px;
+    margin: 20px;
+    color:aqua;
+    padding: 10px;
+    height: 300px;
+   
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  }
+
+  @media screen and (min-width: 760px) {
+.column {
+    float: left;
+    color: blueviolet;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  }
+
+  @media screen and (min-width: 460px) {
+    .column {
+        float: left;
+        color:brown;
+        width: 400px;
+        margin: 20px;
+        padding: 10px;
+        height: 300px;
+      
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+      } */
+
+/* ne versionin large (min-width 960 px) dizajn me tre kolona
+ne versionin per mobile devices(min - width 760px) dizajn me dy kolona
+per min-width-460 nje kolone dizajn */

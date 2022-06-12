@@ -1,41 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Rent Riinvest</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
-        <link rel="stylesheet" href="styles/style.css">
-    </head>
-    <body style="background-color:  #bfdccb;">
-        <div class="header">
-            <header class="site-header">  
-                <div class="site-identity">  
-                    <a href="index.html"> <img class="logo" src="images/riinvestlogo.png"></a>
-                </div>   
-                <nav class="site-navigation">  
-                    <ul class="nav">  
-                        <li><a href="index.html">Home</a></li>   
-                        <li><a href="productList.html">Rent Classes</a></li>   
-                        <li><a href="contactUs.html">Contact Us</a></li>
-                        <li><a href="#">Latest News</a></li>
-                        <li><a href="#">FAQs</a></li> 
-                    </ul>  
-                </nav>  
-            </header> 
-        </div>
+<head>
+    <title>Rent Riinvest</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/header_and_footer.css">
+</head>
 
-        <div class="footer-basic">
-            <footer>
-                <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-                <ul class="list-inline">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Rent Classes</a></li>
-                    <li><a href="#">Contact Us</a></li>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <header class="site-header">
+            <div class="site-identity">
+                <a href="index.html"> <img class="logo" src="images/riinvestlogo.png"></a>
+            </div>
+            <nav class="site-navigation">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productList.html">Rent Classes</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
                     <li><a href="#">Latest News</a></li>
                     <li><a href="#">FAQs</a></li>
                 </ul>
-                <p class="copyright">bast gang © 2022</p>
-            </footer>
+            </nav>
+        </header>
+    </div>
+
+    <div class="SlideShow">
+        <div class="slideshow-container ">
+            <div class="mySlides fade show_bg_2"></div>
+            <div class="mySlides fade show_bg_1"></div>
+            <div class="mySlides fade show_bg_3"></div>
+
+            <a class="prev fa fa-angle-left" onclick="plusSlides(-1)"></a>
+            <a class="next fa fa-angle-right" onclick="plusSlides(1)"></a>
+
+            <div style="text-align:center; margin-top: -30px;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </div>
-    </body>
+        <br>
+    </div>
+
+    <!-- Content on Home Page -->
+    <div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+                        class="icon ion-social-snapchat"></i></a><a href="#"><i
+                        class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rent Classes</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Latest News</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+            <p class="copyright">bast gang © 2022</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
 </html>
